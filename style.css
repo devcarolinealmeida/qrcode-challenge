@@ -1,0 +1,67 @@
+body {
+    font-family:'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.cartao {
+    background-color: hsl(0, 0%, 100%);
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    padding: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.cartao__conteudo {
+    width: 88%;
+    display: block;
+}
+
+.cartao__titulo {
+    color: hsl(218, 44%, 22%);
+    font-size: 23px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+
+.cartao__texto {
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    line-height: 20px;
+    box-sizing: border-box;
+}
+
+.cartao__imagem {
+    width: 300px;
+    border-radius: 20px;
+}
+
+footer {
+    font-size: 10px;
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+    margin-top: 5%;
+}
+
+@media screen and (max-width:375px) {
+    body {
+        width: 375px;
+    }
+
+    footer {
+        margin-top: 15%;
+    }
+}
